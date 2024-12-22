@@ -22,3 +22,7 @@ Once the student's face is recognized, their attendance is marked and stored in 
 3. Tkinter (for creating the GUI)
 4. SQL Database (to store student details)
 5. CSV (to store attendance)
+
+**PREREQUISTIES**
+Python 3.11 (latest stable version of Python)
+VsCode (latest version)
