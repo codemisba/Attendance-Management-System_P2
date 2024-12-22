@@ -3,18 +3,32 @@
 This project is a Face Recognition-based Attendance System that uses OpenCV, Tkinter, and an SQL database to manage student records and attendance.
 The system provides functionalities for adding, updating, deleting student details, training the face recognition model, and marking attendance through face recognition.
 
-**FEATURES** 
 
-*Student Details Management*:
-Add, update, or delete student details which are saved directly to the SQL database.
+***Features***
+- Real-time face detection and recognition.
+- Attendance marking with timestamps.
+- Simple and user-friendly interface.
+- Stores attendance records in a CSV file.
 
-*Face Training:*
-Capture images of students and train the face recognition model.
+***Requirements***
+1. Python 3.7 or later
+2. Required Libraries:
+   - OpenCV
+   - NumPy
+   - Pandas
+3. VS Code (or any preferred Python IDE)
 
-*Attendance Marking:* 
-Once the student's face is recognized, their attendance is marked and stored in a CSV file.
+***Installation***
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/attendance-management-system.git
+   cd attendance-management-system
+   ```
 
-*GUI:* Developed using Tkinter for a user-friendly interface.
+2. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 **TECHNOLOGIES USED** 
 1. Python 3.11 (Latest stable version of Python)
@@ -23,11 +37,27 @@ Once the student's face is recognized, their attendance is marked and stored in 
 4. SQL Database (to store student details)
 5. CSV (to store attendance)
 
-**PREREQUISTIES**
-Python 3.11 (latest stable version of Python)
-VsCode (latest version)
 
-**Steps to Run the project**
-1. Run the *main.py* file to view the project
+***How to Run***
+1. Open the project in VS Code.
+2. Run the following command in the terminal:
+   ```bash
+   python main.py
+   ```
+3. Follow the prompts to register faces and mark attendance.
 
-   
+***Project Structure***
+```
+attendance-management-system/
+├── main.py          # Main application script
+├── face_recog.py    # Face recognition module
+├── data/            # Directory to store facial data
+├── attendance.csv   # Attendance log file
+└── requirements.txt # List of required libraries
+```
+
+***Future Improvements***
+- Integrate with a database for better data management.
+- Add email notifications for attendance alerts.
+- Build a web interface for remote access.
+
