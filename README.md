@@ -26,3 +26,8 @@ Once the student's face is recognized, their attendance is marked and stored in 
 **PREREQUISTIES**
 Python 3.11 (latest stable version of Python)
 VsCode (latest version)
+
+**Steps to Run the project**
+1. Run the *main.py* file to view the project
+
+   
